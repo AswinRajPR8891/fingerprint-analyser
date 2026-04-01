@@ -6,7 +6,7 @@ from PIL import Image
 from src.preprocess import preprocess_image
 from src.features import extract_features
 from src.matcher import match_features, calculate_score
-
+from src.minutiae import get_minutiae
 
 st.title("🔍 Fingerprint Analyser")
 
